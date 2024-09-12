@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.5 // Change to 1.0 to ensure the section is fully visible
+    threshold: 0.1 // Change to 1.0 to ensure the section is fully visible
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
